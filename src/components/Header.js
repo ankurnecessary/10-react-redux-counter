@@ -1,4 +1,5 @@
-import classes from './Header.module.css';
+import React from 'react'
+import classes from './Header.module.css'
 
 const Header = () => {
   return (
@@ -18,7 +19,7 @@ const Header = () => {
         </ul>
       </nav>
     </header>
-  );
-};
+  )
+}
 
-export default Header;
+export default Header
