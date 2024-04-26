@@ -1,10 +1,10 @@
-import Counter from './components/Counter';
+import React from 'react'
+import Counter from './components/Counter'
 
-
-function App() {
+function App () {
   return (
     <Counter />
-  );
+  )
 }
 
-export default App;
+export default App
